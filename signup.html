@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleL.css"> 
+    <link rel="shortcut icon" href="./assets/img/logonew.png" type="image/x-icon">
+    
+</head>
+<body style="background-color: #cdf2c2;">
+
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="index.php"><h1 class="logo"><img src="./assets/img/logonew.png" width="60" height="55" alt="Icon" ></a>  ReRead</h1>
+                </div>
+                <div class="col-md-8">
+                    <ul id="menu" class="float-md-end">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="aboutus.php">About Us</a></li>
+                        <li><a href="contactus.php">Contact Us</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="login.php">Log In</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="row box2">
+            <div class="col">
+                <h4 class="page-head-line">Enter The Details To<br>Register With <strong>ReRead Account :</strong></h4>
+                <form action="databaseconnection.php">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" name="username" placeholder="Enter username" required >
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control"    name="email" placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mobile">Mobile Number</label>
+                        <input type="tel" class="form-control"  name="mobile" placeholder="Enter mobile number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" class="form-control"  name="city" placeholder="Enter city" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control"  name="password" placeholder="Enter password" required>
+                    </div>
+                    <div class="col-sm-7 float-end">
+                        <button type="submit" class="btn btn-primary btn-block register">Register</button>
+                    </div>
+                </form>
+                
+                
+            </div>
+        </div>    
+    </div>
+
+
+
+    <div class="container section">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-head">Services Provided</h2>
+            </div>
+            <div class="col-md-4">
+                <div class="service-box">
+                    <i class="bi bi-cart4"></i>
+                    <h3>Buying & Selling Books</h3>
+                    <p>Buy and resell all kind of books at a reasonable prices</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-box">
+                    <i class="bi bi-images"></i>
+                    <h3>Image Review</h3>
+                    <p>Can take a look at the book condition before buying it</p>
+                </div>
+            </div>    
+            <div class="col-md-4">
+                <div class="service-box">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <h3>Geographical Location</h3>
+                    <p>Option to buy books near their geographical location</p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+
+<div id="footer" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">copyright@2024 ReRead</div>
+            <div class="col-md-6">
+                <ul id="social-icons" class="float-md-end">
+                    <li><a href="" class="bi bi-facebook"></a></li>
+                    <li><a href="" class="bi bi-twitter-x"></a></li>
+                    <li><a href="" class="bi bi-instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
